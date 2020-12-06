@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#24272C"
+    android:layout_height="match_parent">
+    <ImageView
+        android:src="@drawable/logo_text"
+        android:layout_width="172.0dp"
+        android:layout_height="60.5dp"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/imageView1"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="30dp" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView3"
+        android:id="@+id/linearLayout2"
+        android:layout_marginLeft="25dp">
+        <RelativeLayout
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/relativeLayout1">
+            <TextView
+                android:text="are your headphones on?"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:textColor="#8D919A"
+                android:id="@+id/textView1" />
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/textView1"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/checkBox1" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/relativeLayout2">
+            <TextView
+                android:text="are you ready for a\nwell deserved sleep?"
+                android:layout_width="wrap_content"
+                android:textColor="#8D919A"
+                android:textSize="18dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2" />
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/textView2"
+                android:id="@+id/checkBox2"
+                android:layout_marginLeft="10dp" />
+        </RelativeLayout>
+    </LinearLayout>
+    <ImageView
+        android:src="@drawable/gotosleep"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageView2"
+        android:scaleType="fitXY"
+        android:layout_marginBottom="35.0dp" />
+    <TextView
+        android:text="Fall asleep\nridiculously\nfast."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25.0dp"
+        android:lineSpacingMultiplier="0.8"
+        android:textSize="50dp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="50.0dp"
+        android:layout_below="@id/imageView1"
+        android:id="@+id/textView3" />
+
+</RelativeLayout>

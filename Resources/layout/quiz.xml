@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/questionsbg"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <TextView
+        android:text="At what time do you usually fall asleep?"
+        android:layout_width="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:layout_marginTop="123.5dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp" />
+    <Spinner
+        android:layout_width="111.0dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView1"
+        android:layout_marginLeft="45dp"
+        android:textSize="25dp"
+        android:id="@+id/spinner1" />
+    <TextView
+        android:text="At what time do you usualy wake up?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_below="@id/spinner1"
+        android:id="@+id/textView2"
+        android:layout_marginTop="55dp" />
+    <Spinner
+        android:layout_width="100.0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:textSize="25dp"
+        android:layout_below="@id/textView2"
+        android:id="@+id/spinner2" />
+    <ImageView
+        android:background="@drawable/nextbtn"
+        android:layout_width="111.0dp"
+        android:layout_height="42.5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:id="@+id/imageView1"
+        android:scaleType="fitXY" />
+</RelativeLayout>
